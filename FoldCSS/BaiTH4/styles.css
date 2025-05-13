@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+.card {
+    width: 500px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: auto;
+    border: 1px solid #d1d1d1; /* Viền mỏng 1px, màu xám nhạt */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.headline {
+    background-color: #fbeaff;
+    padding: 10px 15px;
+}
+
+.headline p {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.headline strong {
+    font-weight: bold;
+}
+
+.headline span {
+    font-weight: 600;
+}
+
+.bullet-points {
+    color: #8e24aa;
+    padding-left: 20px;
+}
+
+.bullet-points li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
