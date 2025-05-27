@@ -8,9 +8,20 @@ h2 {
   margin-top: 20px;
 }
 
+#mainCar {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  background-color: white; 
+}
+
+
 .thumbnails {
   margin-top: 20px;
 }
+
 
 .thumb {
   width: 90px;
