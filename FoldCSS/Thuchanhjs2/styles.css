@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.thumbnails {
+  margin-top: 20px;
+}
+
+.thumb {
+  width: 90px;
+  height: 60px;
+  margin: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.thumb:hover {
+  border: 2px solid blue;
+}
