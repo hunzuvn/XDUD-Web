@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+header,
+nav,
+main,
+footer,
+aside{
+    width: 100%;
+    height: 
+}
+
+header {
+    background-color: #256db4;
+}
+
+nav {
+    background-color: #aa2121;
+}
+

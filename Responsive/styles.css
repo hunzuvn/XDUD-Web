@@ -1,0 +1,26 @@
+.mybox{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.mybox>div{
+    height: 300px;
+    width: 50%;
+}
+
+.mybox>div:first-child{
+    background-color: red;
+}
+.mybox>div:last-child{
+    background-color: blue;
+}
+
+@media (screen and (min-width: 800px)) {
+    .mybox>div:first-child {
+       width: 70%;
+    }
+    .mybox>div:last-child {
+         width: 30%;
+    }
+}
